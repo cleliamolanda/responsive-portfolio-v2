@@ -333,7 +333,6 @@ h3 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* background-color: linear-gradient(180deg, #f0f0f0, #bab9b8); */
 }
 
 .body-small {
@@ -416,10 +415,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* align-items: flex-start; */
-    /* min-height: 50%; */
-    /* height: auto; */
-    /* overflow: auto; */
 }
 
 .container.text-align-left {
@@ -475,18 +470,18 @@ h3 {
 .footer-background {
     position: relative;
     display: flex;
-    width: auto; /* Allow the width to adjust to the image's original size */
-    height: auto; /* Allow the height to adjust to the image's original size */
-    margin: 0 auto; /* Center the footer background */
+    width: auto;
+    height: auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
 .footer-background img {
-    display: block; /* Remove any inline spacing issues */
-    width: auto; /* Maintain the image's original width */
-    height: auto; /* Maintain the image's original height */
-    max-width: 100%; /* Ensure it doesn't exceed the container's width */
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 .container-footer {
@@ -506,11 +501,6 @@ h3 {
     text-align: center;
 }
 
-.button__magnetic {
-    position: relative;
-}
-
-/* Updated button-contact styles */
 .button-contact {
     display: flex;
     justify-content: center;
@@ -561,17 +551,6 @@ h3 {
     grid-column-gap: 2rem;
     grid-row-gap: 1rem;
     padding-bottom: 1rem;
-}
-
-.social-wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Fa brands 400', sans-serif;
-    color: #e4b3a3;
-    font-size: 1.2rem;
-    line-height: 1;
 }
 
 .icon {
