@@ -6,6 +6,7 @@
     <title>Clay Molanda Portfolio</title>
     <link rel="icon" type="image/x-icon" href="images/ca.ico">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="page-wrapper">
@@ -52,6 +53,7 @@
 
                                 <div class="container">
                                     <h3 class="heading-medium">Technical Skills</h3>
+                                    <div class="padding-xsmall"></div>
                                     <div class="container-wrap">
                                         <div class="tag">html</div>
                                         <div class="tag">css</div>
@@ -69,6 +71,7 @@
                                     </div>
                                     <div class="padding-normal"></div>
                                     <h3 class="heading-medium">Soft Skills</h3>
+                                    <div class="padding-xsmall"></div>
                                     <div class="container-wrap">
                                         <div class="tag">problem-solving</div>
                                         <div class="tag">attention to detail</div>
@@ -88,7 +91,7 @@
                         <div class="container align-center">
                             <h3 class="heading-style-h2">Projects</h3>
                         </div>
-                        <div class="padding-large"></div>
+                        <div class="padding-normal"></div>
                         <div class="container text-align-left">
                             <div class="w-layout-grid grid-2col-project gap-large">
                                 <div class="project-card">
@@ -215,7 +218,7 @@
                             <div class="text-size-xlarge color-style-white">Contact me and let's talk.</div>
                             <div class="padding-normal"></div>
                             <div class="button-contact">
-                                <a href="mailto:contact@calciumprod.com" class="button-contact-link default w-inline-block">
+                               <a href="#contact-modal" class="button-contact-link default w-inline-block">
                                     <div class="button-contact-content">
                                         <div class="button-contact-txt">contact me</div>
                                     </div>
@@ -261,6 +264,25 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div id="contact-modal" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close-btn" title="Close">&times;</a>
+                <h3>Contact Me</h3>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <div class="padding-xsmall"></div>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <div class="padding-xsmall"></div>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <div class="padding-xsmall"></div>
+                    <textarea id="message" name="message" required></textarea><br><br>
+                    <a href="#" class="send-button">Send</a>
+                </form>
             </div>
         </div>
     </body>
