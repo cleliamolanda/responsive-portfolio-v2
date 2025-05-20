@@ -574,6 +574,7 @@ a {
 }
 
 .modal-content h3 {
+  font-size: 1.5rem;
   text-align: center;
   width: 100%;
 }
@@ -849,9 +850,30 @@ body:has(input[name='changeTheme']:checked) .modal-content textarea {
   .grid-2col-project {
     grid-template-columns: 1fr;
   }
+
   .project-card {
     width: 100%;
     margin: 0 0 2rem 0;
+  }
+
+  .modal-content {
+    padding: 1.5rem;
+    min-width: auto;
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .modal-content input,
+  .modal-content textarea {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  .send-button {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.75rem;
   }
 }
 
@@ -898,6 +920,37 @@ body:has(input[name='changeTheme']:checked) .modal-content textarea {
 
   .hero-wrapper {
     min-width: 72rem;
+  }
+
+  .modal {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+    .modal-content {
+    padding: 1rem;
+    min-width: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .modal-content h3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .modal-content input,
+  .modal-content textarea {
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+
+  .send-button {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+    width: 100%;
+    text-align: center;
   }
 }
 
